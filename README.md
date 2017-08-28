@@ -14,4 +14,5 @@ If you would like to re-train your classifier model, run:
     mnist_cnn_train_slim.py
     
     
-![ICP of ALI](MNIST_Inception_Score/icp_plot.pdf)
+![ICP of ALI](MNIST_Inception_Score/)
+<img src="./icp_plot.pdf" data-canonical-src="./icp_plot.pdf" width="460" height="250" />
