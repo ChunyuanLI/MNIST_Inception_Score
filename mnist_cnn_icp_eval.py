@@ -203,11 +203,13 @@ def softmax(x):
 # RESTORE SAVED NETWORK
 saver.restore(sess, MODEL_DIRECTORY)
 
+
+# folders for generated images
+result_folder = './ali_results/'
+
 icp = []
 for k in range(50):
     k = k + 1
-    # folders for generated images
-    result_folder = './ali_results/'
     # result_folder = '../GAN/ali_bigan/ali_shell_results/'
     # mat = scipy.io.loadmat(result_folder+ '2_2_2_256_256_1024.mat' )
     mat = scipy.io.loadmat(result_folder+ '{}.mat'.format(str(k).zfill(3)))
