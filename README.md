@@ -3,8 +3,7 @@
 Training a MNIST classifier, and use it to computing inception score (ICP)
 
 Under our ICP implementation, the testing set of MNIST yields an score 
-
-- <img src="https://latex.codecogs.com/gif.latex?9.8793 $\pm$ 0.0614" />
+<img src="https://latex.codecogs.com/gif.latex?9.8793$\pm$0.0614" />
 
 To evaluate the ICP of generated images, run:
 
