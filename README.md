@@ -14,4 +14,4 @@ If you would like to re-train your classifier model, run:
     mnist_cnn_train_slim.py
     
     
-![alt text](https://github.com/ChunyuanLI/MNIST_Inception_Score/blob/master/icp_plot.pdf?raw=true "Optional Title")
+![alt text](https://github.com/ChunyuanLI/MNIST_Inception_Score/blob/master/icp_plot.pdf)
