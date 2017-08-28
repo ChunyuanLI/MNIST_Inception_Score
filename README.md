@@ -13,6 +13,7 @@ The generated images are saved in a mat file, with a tensor named 'images' of si
 
 If you have multiple checkout points (each is a mat file) saved in a folder, you may specify the directory as
 
+```Python
     # folders for generated images
     result_folder = './example_dir/'
 
@@ -20,11 +21,14 @@ If you have multiple checkout points (each is a mat file) saved in a folder, you
     for k in range(50):
         k = k + 1
         mat = scipy.io.loadmat(result_folder+ '{}.mat'.format(str(k).zfill(3)))
+```
 
-If you have one checkout point in a mat file, you may specify the file as
+If you have one checkout point saved in a mat file, you may specify the file as
 
+```Python
     file_name = 'example.mat'
     mat = scipy.io.loadmat(result_folder+ file_name )
+```
 
 -----
 
