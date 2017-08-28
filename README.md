@@ -11,4 +11,7 @@ To evaluate the ICP of generated images, run:
     
 If you would like to re-train your classifier model, run:
 
-    mnist_cnn_icp_eval.py
+    mnist_cnn_train_slim.py
+    
+    
+![alt text](icp_plot.pdf)
