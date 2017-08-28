@@ -14,4 +14,4 @@ If you would like to re-train your classifier model, run:
     mnist_cnn_train_slim.py
     
     
-![Image of Yaktocat](https://github.com/ChunyuanLI/MNIST_Inception_Score/blob/master/icp_plot.pdf)
+![ICP of ALI](icp_plot.pdf)
