@@ -6,9 +6,10 @@ Under our ICP implementation, the testing set of MNIST yields an score
 <img src="https://latex.codecogs.com/gif.latex?$\bf{9.8793~\pm~0.0614}$" />
 
 
-The generated images are saved in a mat file, with a tensor of size [10000,784], where 10000 is the number of images, and 784 is the dimension of a flattened MNIST image.
+The generated images are saved in a mat file, with a tensor named 'images' of size [10000,784], where 10000 is the number of images, and 784 is the dimension of a flattened MNIST image.
 
 -----
+### The Format of Generated Images 
 
 If you have multiple checkout points (each is a mat file) saved in a folder, you may specify the directory as
 
@@ -26,6 +27,8 @@ If you have one checkout point in a mat file, you may specify the file as
     mat = scipy.io.loadmat(result_folder+ file_name )
 
 -----
+
+### How to use the code: Evaluation, Re-train and Plot
 
 To evaluate the ICP of generated images, run:
 
