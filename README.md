@@ -2,10 +2,10 @@
 
 Train a "perfect" MNIST classifier, and use it to computing inception score (ICP)
 
-With our ICP implementation (pre-trained model saved in directory 'model'), the testing set of MNIST yields an score 
+With our ICP implementation (pre-trained model saved in directory 'model'), the testing set of MNIST yields a score 
 <img src="https://latex.codecogs.com/gif.latex?$\bf{9.8793~\pm~0.0614}$" />
 
-Note that different pre-trained model may lead to slightly different inception score.
+Note that different pre-trained models may lead to slightly different inception scores.
 
 -----
 ### The Format of Generated Images 
