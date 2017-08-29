@@ -7,6 +7,8 @@ With our ICP implementation (pre-trained model saved in directory 'model'), the 
 
 Note that different pre-trained models may lead to slightly different inception scores.
 
+Prerequisites: Tensorflow 1.0
+
 -----
 ### The Format of Generated Images 
 
