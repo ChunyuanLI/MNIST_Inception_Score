@@ -1,9 +1,6 @@
 import gzip
 import os
 
-GPUID = 1
-os.environ["CUDA_VISIBLE_DEVICES"] = str(GPUID)
-
 from scipy import ndimage
 from six.moves import urllib
 import numpy as np
