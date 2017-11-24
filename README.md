@@ -53,7 +53,7 @@ If you would like to plot your inception scores for multiple checkout points, ru
     
 
 ## Citation
-This code is used in the following[paper](https://arxiv.org/abs/1709.01215):
+This code is used in the following [paper](https://arxiv.org/abs/1709.01215):
 
 ```
 @article{li2017alice,
